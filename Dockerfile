@@ -14,4 +14,5 @@ RUN apt-get update
 # Install base dependencies
 RUN apt-get install -y -q --no-install-recommends \
   curl \
+  imagemagick \
   jq
